@@ -1,15 +1,18 @@
 import { first, last } from "lodash";
 
 /**
- * Input the string and return an array
- * @param input string
+ * Prepares the input string by splitting it into an array of strings and filtering out empty strings.
+ * @param input The input string to be prepared.
+ * @returns An array of prepared strings.
  */
 const prepare = (input: string): string[] => {
   return input.split(/\n/).filter(Boolean);
 };
 
 /**
- * @param input String input
+ * Calculates the sum of the first and last digits of each string in the input array.
+ * @param input The input string.
+ * @returns The sum of the first and last digits.
  */
 export const partOne = (input: string) => {
   const data = prepare(input);
@@ -24,7 +27,9 @@ export const partOne = (input: string) => {
 };
 
 /**
- * @param input String input
+ * Converts the first and last digits of each string in the input array to numbers and calculates their sum.
+ * @param input The input string.
+ * @returns The sum of the converted first and last digits.
  */
 export const partTwo = (input: string) => {
   const data = prepare(input);
@@ -40,10 +45,9 @@ export const partTwo = (input: string) => {
     "nine",
   ];
   return data.reduce((acc, curr) => {
-    // Convert the string to an array of digits
-
     // Convert the first digit to a number
     const firstRegex = new RegExp(`[0-9]|${vals.join("|")}`);
+    console.log(firstRegex);
     let firstDigit = first(curr.match(firstRegex)) ?? "0";
     if (isNaN(parseInt(firstDigit)))
       firstDigit = (vals.indexOf(firstDigit) + 1).toString();
