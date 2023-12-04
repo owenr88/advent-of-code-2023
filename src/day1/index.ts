@@ -47,7 +47,6 @@ export const partTwo = (input: string) => {
   return data.reduce((acc, curr) => {
     // Convert the first digit to a number
     const firstRegex = new RegExp(`[0-9]|${vals.join("|")}`);
-    console.log(firstRegex);
     let firstDigit = first(curr.match(firstRegex)) ?? "0";
     if (isNaN(parseInt(firstDigit)))
       firstDigit = (vals.indexOf(firstDigit) + 1).toString();
