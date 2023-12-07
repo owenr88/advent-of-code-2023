@@ -10,7 +10,7 @@ describe("day 6", () => {
       expect(partOne(sampleInput)).toBe(288);
     });
     test("challenge 1 real data", () => {
-      expect(partOne(input)).toBe(0);
+      expect(partOne(input)).toBe(1624896);
     });
   });
   describe("part 2", () => {
