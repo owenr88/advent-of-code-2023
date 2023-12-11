@@ -1,5 +1,7 @@
+import { describe, expect, test } from "bun:test";
+
 import { partOne, partTwo } from "./index";
-import input from "./input";
+import input from "./input.txt";
 
 const sampleInput = ``;
 
