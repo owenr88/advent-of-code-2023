@@ -1,5 +1,5 @@
+import { Point, Polygon, pointInPolygon } from "geometric";
 import { ceil, includes } from "lodash";
-import pointInPolygon from "point-in-polygon";
 
 type Coordinate = {
   x: number;
@@ -154,11 +154,11 @@ class Coordinates {
    * @returns An array of coordinates inside the polygon.
    */
   getPointsPolygon() {
-    const polygon = this.points.map((n) => [n.x, n.y]);
+    const polygon: Polygon = this.points.map((n) => [n.x, n.y]);
     const inside: Coordinate[] = [];
     this.coordinates.forEach((n) => {
       if (includes(this.points, n)) return;
-      const point = [n.x, n.y];
+      const point: Point = [n.x, n.y];
       if (pointInPolygon(point, polygon)) {
         inside.push(n);
       }

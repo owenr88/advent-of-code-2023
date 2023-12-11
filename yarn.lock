@@ -659,6 +659,11 @@
   resolved "https://registry.yarnpkg.com/@types/fined/-/fined-1.1.3.tgz#83f03e8f0a8d3673dfcafb18fce3571f6250e1bc"
   integrity sha512-CWYnSRnun3CGbt6taXeVo2lCbuaj4mchVJ4UF/BdU5TSuIn3AmS13pGMwCsBUoehGbhZrBrpNJZSZI5EVilXww==
 
+"@types/geometric@^2.5.3":
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/@types/geometric/-/geometric-2.5.3.tgz#1ac31fbe4f63f543f9500be69ede6e9f96b8af4e"
+  integrity sha512-8NBTc3oP2J5giu88sDI2cwLZv8ZGtMS4BvxWdSHU1/4oH/L79F/6gAdZuUQhS1s3RDKQ8wJDW6m0WULAAOxP2w==
+
 "@types/graceful-fs@^4.1.3":
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/@types/graceful-fs/-/graceful-fs-4.1.5.tgz#21ffba0d98da4350db64891f92a9e5db3cdb4e15"
@@ -1477,6 +1482,11 @@ gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
   resolved "https://registry.yarnpkg.com/gensync/-/gensync-1.0.0-beta.2.tgz#32a6ee76c3d7f52d46b2b1ae5d93fea8580a25e0"
   integrity sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==
+
+geometric@^2.5.4:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/geometric/-/geometric-2.5.4.tgz#1c14630a4c8ca8c046998659a7ed8fcc1af1138d"
+  integrity sha512-6MQ0id8tzpYJ0abWrKX6xI1sQAj8TfAkKSVqo1gLQU6b3oSJcFF8r32Ji+t0efGdYDyY5E3ZgkjAdU6qdxDTyQ==
 
 get-caller-file@^2.0.5:
   version "2.0.5"
