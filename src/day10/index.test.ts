@@ -1,3 +1,5 @@
+import { describe, expect, test } from "bun:test";
+
 import { partOne, partTwo } from "./index";
 import input from "./input";
 
@@ -46,7 +48,7 @@ describe("day 10", () => {
       expect(partTwo(sampleInput3)).toBe(4);
     });
     test("challenge 2 real data", () => {
-      expect(partTwo(input)).toBe(0);
+      expect(partTwo(input)).toBe(429);
     });
   });
 });

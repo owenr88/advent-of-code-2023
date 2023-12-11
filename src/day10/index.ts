@@ -224,6 +224,6 @@ export const partTwo = (input: string) => {
     coords.process();
   }
   const points = coords.getPointsPolygon();
-  coords.printMap();
+  // coords.printMap();
   return points.length;
 };

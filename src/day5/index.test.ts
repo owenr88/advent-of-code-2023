@@ -1,3 +1,5 @@
+import { describe, expect, test } from "bun:test";
+
 import { partOne, partTwo } from "./index";
 import input from "./input";
 
