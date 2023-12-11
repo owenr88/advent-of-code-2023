@@ -718,6 +718,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.17.tgz#5c009e1d9c38f4a2a9d45c0b0c493fe6cdb4bcb5"
   integrity sha512-HJSUJmni4BeDHhfzn6nF0sVmd1SMezP7/4F0Lq+aXzmp2xm9O7WXrUtHW/CHlYVtZUbByEvWidHqRtcJXGF2Ng==
 
+"@types/point-in-polygon@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@types/point-in-polygon/-/point-in-polygon-1.1.5.tgz#6e920543aa6406b320eb1931042c4e660199d978"
+  integrity sha512-VYZQKsxOQCzemTWCvsdXbu6T+zbYHY5d/B34FFfcgGC3O8zDeTUcrhZOiW3+RIFVayUdewcSKF3trbvNCs3w0w==
+
 "@types/prettier@^2.1.5":
   version "2.7.2"
   resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-2.7.2.tgz#6c2324641cc4ba050a8c710b2b251b377581fbf0"
@@ -2705,6 +2710,11 @@ plop@^3.1.1:
     node-plop "^0.31.0"
     ora "^6.0.1"
     v8flags "^4.0.0"
+
+point-in-polygon@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/point-in-polygon/-/point-in-polygon-1.1.0.tgz#b0af2616c01bdee341cbf2894df643387ca03357"
+  integrity sha512-3ojrFwjnnw8Q9242TzgXuTD+eKiutbzyslcq1ydfu82Db2y+Ogbmyrkpv0Hgj31qwT3lbS9+QAAO/pIQM35XRw==
 
 prettier@^2.8.1:
   version "2.8.1"
