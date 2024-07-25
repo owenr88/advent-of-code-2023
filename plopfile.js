@@ -23,8 +23,8 @@ module.exports = function (plop) {
       },
       {
         type: "add",
-        path: "src/day{{day}}/input.ts",
-        templateFile: "plop-templates/input.ts",
+        path: "src/day{{day}}/input.txt",
+        templateFile: "plop-templates/input.txt",
       },
     ],
   });

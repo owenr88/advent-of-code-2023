@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "solve": "bun --watch ./scripts/solve.ts",
     "test": "bun test --watch",
     "plop": "plop"
   },
